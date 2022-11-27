@@ -1,0 +1,10 @@
+radius=float(input("enter radius:"))
+area=3.14*radius*radius
+print(area)
+
+#taking input filename from use and getting extension
+filename=input("enter the filename:")
+print(filename)
+ file=filename.split(".")
+print("extension of file is:"+file[-1])
+
